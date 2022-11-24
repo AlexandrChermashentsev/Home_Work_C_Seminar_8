@@ -59,8 +59,8 @@ int[,] SortMatrix(int[,] matrix)
 }
 
 Random random = new Random();
-int line = random.Next(3, 6);
-int column = random.Next(3, 6);
+int line = random.Next(3, 10);
+int column = random.Next(3, 10);
 
 int[,] matrix = InitialMatrix(line, column);
 PrintMatrix(matrix);
